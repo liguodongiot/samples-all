@@ -19,7 +19,8 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.lgd.es.controller",
         "com.lgd.es.service",
-        "com.lgd.es.dao"})
+        "com.lgd.es.dao",
+        "com.lgd.es.cfg"})
 @Configuration
 @ServletComponentScan
 public class EsApplication {
